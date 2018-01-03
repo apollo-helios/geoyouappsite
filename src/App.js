@@ -51,11 +51,11 @@ class App extends Component {
         <div id="top" className="w3-content" style={mainStyle}>
           <div className="w3-display-container w3-center">
             <img src={coverImage} className="coverImg" alt=""/>
-            <div className="w3-display-middle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <div className="w3-display-middle w3-container w3-text-white w3-padding-32">
               <h1 className="w3-jumbo" style={textShadow}><strong><span className="w3-text-red">G</span><span
                 className="w3-text-green">E</span><span className="w3-text-blue"><i
                 className="fa fa-globe"></i></span><span className="w3-text-yellow">U</span></strong></h1>
-              <h3 className="w3-xxlarge" style={textShadow}><strong>Real People. Real Connections.</strong></h3>
+              <h3 className="w3-xxlarge w3-hide-small" style={textShadow}><strong>Real People. Real Connections.</strong></h3>
               <p className="w3-xlarge" style={textShadow}><strong>Coming Soon</strong></p>
             </div>
           </div>
