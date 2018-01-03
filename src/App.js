@@ -4,10 +4,12 @@ import CountdownTimer from 'react-awesome-countdowntimer';
 import Carousel from 'nuka-carousel';
 import 'w3-css/w3.css';
 import './App.css';
-import coverImage from './images/berlin_mosaic.jpg'
+import coverImage from './images/berlin_mosaic.jpg';
 import phoneMap from './images/map.jpg';
 import coffee from './images/coffee.jpg';
-import table from './images/table.JPG'
+import table from './images/table.JPG';
+import elliot from './images/elliot.JPG';
+import eoin from './images/eoin.jpg';
 
 let mainStyle = {
   maxWidth: '2000px',
@@ -132,8 +134,24 @@ class App extends Component {
             <h2 className="w3-wide w3-center">Contact Us</h2>
             <div className="w3-row w3-padding-32">
               <div className="w3-col m6 w3-large w3-margin-bottom">
-                <i class="fa fa-user" aria-hidden="true"></i> Dairston Elliot, Founder
-                <i class=""
+                <i className="fa fa-user" aria-hidden="true"></i> Dairston Elliot, Founder
+                <br/>
+                <i className="fa fa-map-marker"></i> Fayetteville, NC
+                <br/>
+                <i className="fa fa-phone"></i> (304)-707-7710
+                <br/>
+                <i className="fa fa-envelope"></i> ameiredfactors@geoyou.us
+                <br/>
+                <img src={elliot} alt="Dairston Elliot" height="360px" />
+              </div>
+              <div className="w3-col m6">
+                <i className="fa fa-user" aria-hidden="true"></i> Eoin Walsh, CTO
+                <br/>
+                <i className="fa fa-map-marker"></i> Durham, NC
+                <br/>
+                <i className="fa fa-envelope"></i> himself@eoinwalsh.com
+                <br/>
+                <img src={eoin} alt="Eoin Walsh" height="320px" />
               </div>
             </div>
           </div>
