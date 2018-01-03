@@ -134,7 +134,7 @@ class App extends Component {
             <h2 className="w3-wide w3-center">Contact Us</h2>
             <div className="w3-row w3-padding-32">
               <div className="w3-col m6 w3-large w3-margin-bottom">
-                <i className="fa fa-user" aria-hidden="true"></i> Dairston Elliot, Founder
+                <i className="fa fa-user" aria-hidden="true"></i> Dairston Elliott, Founder
                 <br/>
                 <i className="fa fa-map-marker"></i> Fayetteville, NC
                 <br/>
