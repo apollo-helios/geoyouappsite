@@ -1,0 +1,12 @@
+.coverImg {
+  width: 100%;
+  max-height: calc(100vh - 46px);
+}
+h1, h2, h3, h4, h5, h6, div.countDown {font-family: 'Josefin Slab', serif;}
+html, body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+.comingSoon {
+  margin-top: 70px;
+}
