@@ -126,7 +126,7 @@ class App extends Component {
               <p>Everyone will be using GEOU once they see how fun it can be! Come on into the fold, and check us out!
                 Did we tell you we're patent-pending?</p>
               <div className="countDown">
-                <CountdownTimer endDate={moment('06/01/2018')}/>
+                <CountdownTimer endDate={moment('12/25/2018')}/>
               </div>
             </div>
           </div>
